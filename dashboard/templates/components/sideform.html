@@ -1,8 +1,9 @@
-<div>
+<div class="py-4">
     <p>What's the Weather Like ?</p>
     <div>
-        <form>
-            <input type="text" name="city" placeholder="Enter City Name..." class="form-control my-3 city-input w-75 mx-auto">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.name }}
             <button class="btn btn-primary">Search</button>
         </form>
     </div>
