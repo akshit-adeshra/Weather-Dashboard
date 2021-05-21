@@ -20,4 +20,5 @@ from dashboard import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
+    path('history/', views.history, name="history"),
 ]

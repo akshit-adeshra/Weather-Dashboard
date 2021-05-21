@@ -26,3 +26,9 @@
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
